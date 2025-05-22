@@ -56,7 +56,7 @@
 ## 🔌 API Integration
 
 The app connects to the Yebora API at:  
-`https://v2-api-engine.onrender.com/v1`
+`[API_BASE_URL]/v1`
 
 ### Supported Endpoints
 
