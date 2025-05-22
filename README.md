@@ -36,17 +36,20 @@
 
 ## 📁 Project Structure Highlights
 
+- `App.js`
+  The entry point of ReactJS app.
+
 - `src/api/utils.js`  
   Reusable `apiClient` instance built with Axios for consistent API integration and token handling.
 
 - `src/components/Loader.js`  
   Custom spinner to indicate loading states globally or in specific sections.
 
-- `src/components/`  
+- `src/main/`  
   Contains campaign-related UI: listing, details, contribution form, and creation form.
 
-- `src/assets/logo.svg`  
-  App logo used in the header and branding.
+- `src/assets`  
+   Contains all media used in the app, such as images, videos and icons.
 
 ---
 
