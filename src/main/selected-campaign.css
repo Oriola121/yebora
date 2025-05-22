@@ -1,0 +1,162 @@
+.selected-campaign {
+  inset: 0;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  overflow-y: auto;
+}
+
+.selected-campaign::-webkit-scrollbar {
+  display: none;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 10;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.selected-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-link.inactive {
+  color: #777e90;
+}
+
+.nav-link.active {
+  color: #353945;
+}
+
+.selected-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.selected-image {
+  width: 40%;
+}
+.selected-image img {
+  width: 400px;
+  height: 200px;
+}
+
+.selected-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 10px;
+}
+
+.selected-category {
+  display: inline-block;
+  background-color: #eff8ff;
+  color: #175cd3;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 4px;
+  min-height: 20px;
+}
+
+.selected-date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.donate-btn {
+  background: linear-gradient(to right, #1b75bc, #29abe2);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.pledge-btn {
+  background: white;
+  color: #328be0;
+  border: 1px solid #328be0;
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.selected-section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  padding-bottom: 100px;
+}
+.creator {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.creator-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fafcff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.creator-head {
+  margin: 0;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e6e8ec66;
+}
+
+.creator-content {
+  display: flex;
+  align-items: center;
+  padding: 25px 40px;
+  gap: 20px;
+}
+
+.creator-text {
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+}
+
+.text-second {
+  margin: 0;
+  padding: 0;
+}
