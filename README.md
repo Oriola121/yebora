@@ -156,4 +156,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📧 Contact
 
-For questions or support, please reach out through the project's GitHub repository.
+For questions or support, please reach out via muhibudeen.oriola@gmail.com or through the project's GitHub repository.
